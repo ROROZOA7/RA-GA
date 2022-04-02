@@ -9,6 +9,34 @@ In nature, the genes of organisms tend to evolve over successive generations to 
 In feature selection, the function to optimize is the generalization performance of a predictive model. More specifically, we want to minimize the error of the model on an independent data set not used to create the model.
 
 
+Feature Selection (FS) is an important stage of data preprocessing, which is
+applied in many machine learning applications. As real-world data contains ir-
+relevant, redundant, and noisy features, the main objective of feature selection
+is data-dimensionality reduction, in which the smallest-size subset of features is
+selected to maximize the model performance. 
+
+Most searching strategies become impractical when dealing
+with high-dimensional datasets. In order to tackle this problem we introduce RA-GA algorithm, which first
+apply a filter approach that relies on correlation information and
+other ranking criteria to score features. A ranking list is obtained according to
+each ranking criterion, which provides an ordering of features. Then aggre-
+gate these ranking lists to obtain an optimal ranking order which allows taking
+advantage of all the criteria. The proposed wrapper method is based on a genetic
+algorithm in which the aggregation ranking list is used as a local operator during
+the selection phase to highlight features with high ranking scores. We employ an
+Artificial Neural Network (ANN) model as the target model in our wrapper ap-
+proach, whose performance assists in fulfilling the evolutionary process of GA.
+Finally, to deal with the problem of high-dimensional searching space, in our
+study, the size of the selected feature subset is also an optimization target which
+is solved by our proposed GA.
+## Table of content
+
+## HGA: Hybrid genetic algorithm
+
+## RHGA: Ranking aggregation - hybrid genetic algorithm
+
+
+
 
 
 ## Dependencies
@@ -17,6 +45,9 @@ In feature selection, the function to optimize is the generalization performance
 [Numpy](http://www.numpy.org/)
 
 [scikit-learn](http://scikit-learn.org/stable/)
+
+# References
+
 
 
 

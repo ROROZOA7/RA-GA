@@ -1,3 +1,0 @@
-Result_pop_old : ls2, co update rank list , replace population old
-result_replace_old : ls2, co update rank list, replace population old
-
