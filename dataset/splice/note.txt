@@ -1,0 +1,2 @@
+result_hga_3 : chạy thử với neural model dnn  , kiểm tra độ ổn định của thuật toán
+
